@@ -1,0 +1,84 @@
+#info-carousel {
+	width: 982px;
+	height: 298px;
+	margin: 20px auto 0;
+	padding: 5px;
+	border: 1px solid #dfdfdf;
+	font: 14px Arial, sans-serif;
+	overflow: hidden;
+}
+
+.ajax-loader {
+	display: none;
+	min-width: 100%;
+	min-height: 100%;
+	background: url(../img/ajax-loader.gif) no-repeat center center scroll;
+}
+
+#info-carousel .image-container {
+	position: relative;
+	float: left;
+	width: 659px;
+	height: 298px;
+	overflow: hidden;
+}
+
+#info-carousel .image-container img {
+	max-width: 100%;
+}
+
+#info-carousel .image-container .content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 74px;
+	background: url(../img/info-description.png) repeat left top scroll;
+}
+
+#info-carousel .image-container .content p {
+	padding: 12px 20px;
+	color: #fff;
+}
+
+#info-carousel .image-container .content p a {
+	font-size: 12px;
+	color: #006dba;
+}
+
+#info-carousel .carousel-links {
+	float: right;
+	width: 323px;
+}
+
+#info-carousel .carousel-links li {
+	padding: 0 0 11px 22px;
+	background-color: #f3f3f3;
+	border-top: 1px solid #cbcbcb;
+	cursor: pointer;
+}
+
+#info-carousel .carousel-links li:first-child,
+#info-carousel .carousel-links li:first-child h3 {
+	border-top: none;
+}
+
+#info-carousel .carousel-links .active-info {
+	background-color: #c90000;
+	color: #fff;
+	cursor: default;
+}
+
+#info-carousel .carousel-links li h3 {
+	padding-top: 8px;
+	border-top: 1px solid #fff;
+	font-size: 18px;
+}
+
+#info-carousel .carousel-links .active-info h3 {
+	border-top: 1px solid #c90000;
+}
+
+#info-carousel .carousel-links li span {
+	font-size: 12px;
+}
